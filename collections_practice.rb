@@ -5,6 +5,8 @@ def swap_elements_from_to(array, index, dest_index)
   element2 = array[dest_index]
   array.insert(dest_index, element1)
   array.insert(index, element2)
+  array.delete_at(index + 1)
+  array.delete_at(dest_index + 1)
 end
 
 def sort_array_asc(array)
