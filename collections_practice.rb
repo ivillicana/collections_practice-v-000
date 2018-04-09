@@ -1,7 +1,10 @@
 require 'pry'
 
 def swap_elements_from_to(array, index, dest_index)
-  array.insert(dest_index, array.delete_at(index))
+  element1 = array[index]
+  element2 = array[dest_index]
+  array.insert(dest_index, element1)
+  array.insert(index, element2)
 end
 
 def sort_array_asc(array)
