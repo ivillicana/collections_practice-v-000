@@ -10,7 +10,7 @@ def swap_elements_from_to(array, index, dest_index)
   array
   binding.pry
 end
-binding.pry
+
 def sort_array_asc(array)
   array.sort
 end
