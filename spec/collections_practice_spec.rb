@@ -30,9 +30,9 @@ describe 'collections practice' do
     end
   end
 
-  describe '#swap_elemts_from_to' do
+  describe '#swap_elements_from_to' do
     it 'swaps element at index to dest_index of an array' do
-      expect(swap_elemts_from_to(["Hi", "Jocelyn", "I'm", "Isaac"], 1, 3)).to eq(["Hi", "Isaac", "I'm", "Jocelyn"])
+      expect(swap_elements_from_to(["Hi", "Jocelyn", "I'm", "Isaac"], 1, 3)).to eq(["Hi", "Isaac", "I'm", "Jocelyn"])
     end
   end
 
