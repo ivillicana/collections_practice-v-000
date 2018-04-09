@@ -7,6 +7,7 @@ def swap_elements_from_to(array, index, dest_index)
   array.insert(index, element2)
   array.delete_at(index + 1)
   array.delete_at(dest_index + 1)
+  array
 end
 
 def sort_array_asc(array)
